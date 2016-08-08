@@ -1,5 +1,15 @@
 # Better Express Errors
 
+## Installation
+
+
+    npm install --save better-express-errors
+
+```js
+var bee = require("better-express-errors")
+app.use(bee(app))
+```
+
 ## Before
 
 ![](https://dl.dropbox.com/s/7kq9pbo6bri3jvp/Screenshot%202016-08-05%2007.16.12.png?dl=0)
