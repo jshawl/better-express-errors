@@ -5,23 +5,18 @@
 
     npm install --save better-express-errors
 
+
 ```js
-var bee = require("better-express-errors")
-app.use(bee(app))
+// after all other middleware and routes
+app.use(require("better-express-errors")(app))
 ```
 
-## Before
+## What is it good for?
 
-![](https://dl.dropbox.com/s/7kq9pbo6bri3jvp/Screenshot%202016-08-05%2007.16.12.png?dl=0)
-
-## After
-
-![](https://dl.dropbox.com/s/kh7pxudo8c31dd8/Screenshot%202016-08-05%2007.15.45.png?dl=0)
-
-## Before
-
-![](https://dl.dropbox.com/s/xbzd2l64nifltaw/Screenshot%202016-08-05%2007.16.24.png?dl=0)
-
-## After
-
-![](https://dl.dropbox.com/s/zv6t3e6tjyqgip4/Screenshot%202016-08-05%2007.15.32.png?dl=0)
+|Before|After|
+| --- | --- |
+|![](img/before/404.png)| ![](img/after/404.png) |
+|![](img/before/type-error.png)| ![](img/after/type-error.png) |
+|![](img/before/reference-error.png)| ![](img/after/reference-error.png) |
+|![](img/before/render-engine-error.png)| ![](img/after/render-engine-error.png) |
+|![](img/before/render-template-error.png)| ![](img/after/render-template-error.png) |

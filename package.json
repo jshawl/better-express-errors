@@ -1,13 +1,21 @@
 {
   "name": "better-express-errors",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Middleware to make expressjs errors readable",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jesse Shawl <jesse@jshawl.com>",
+  "license": "MIT",
+  "keywords": ["express"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jshawl/better-express-errors"
+  },
+  "bugs": {
+    "url": "https://github.com/jshawl/better-express-errors/issues"
+  },
   "dependencies": {
     "express": "^4.14.0",
     "handlebars": "^4.0.5"
